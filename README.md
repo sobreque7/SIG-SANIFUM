@@ -6,20 +6,21 @@ Sistema de gestión para asignación de servicios y técnicos.
 
 ### 1. Python 3.11+
 ### 2. Instalar dependencias
+### Usar VS Code
+### En la terminal CMD colocar el siguiente comando:
 ```
 pip install -r requirements.txt
 ```
 
 ### 3. Base de Datos
 - Crear BD MySQL: `sig_sanifum`
-- Importar:
-```
-mysql -u usuario -p sig_sanifum < base_de_datos_SANIFU.sql
-```
+- Importamos el código de la Base de datos a SQL y creamos las tablas donde se rellena la información del BackEnd del Software
 
 ## Ejecutar el sistema
+
+Dentro de VS Code deben ejecutar una terminal CMD y ejecutar el siguiente comando
 ```
-python app.py
+python.exe app.py
 ```
 
 El backend quedará disponible en:
